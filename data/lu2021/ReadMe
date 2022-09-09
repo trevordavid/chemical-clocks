@@ -1,0 +1,143 @@
+J/AJ/161/189  Catalog of gyro-kinematic ages for ~30000 Kepler stars (Lu+, 2021)
+================================================================================
+Gyro-kinematic ages for around 30000 Kepler stars.
+    Lu Y., Angus R., Curtis J.L., David T.J., Kiman R.
+   <Astron. J., 161, 189-189 (2021)>
+   =2021AJ....161..189L    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, ages; Effective temperatures; Stars, dwarfs
+Keywords: Stellar ages; Stellar kinematics; Stellar rotation
+
+Abstract:
+    Estimating stellar ages is important for advancing our understanding
+    of stellar and exoplanet evolution and investigating the history of
+    the Milky Way. However, ages for low-mass stars are hard to infer as
+    they evolve slowly on the main sequence. In addition, empirical dating
+    methods are difficult to calibrate for low-mass stars as they are
+    faint. In this work, we calculate ages for Kepler F, G, and crucially
+    K and M-dwarfs, using their rotation and kinematic properties. We
+    apply the simple assumption that the velocity dispersion of stars
+    increases over time and adopt an age-velocity-dispersion relation
+    (AVR) to estimate average stellar ages for groupings of coeval stars.
+    We calculate the vertical velocity dispersion of stars in bins of
+    absolute magnitude, temperature, rotation period, and Rossby number
+    and then convert velocity dispersion to kinematic age via an AVR.
+    Using this method, we estimate gyro-kinematic ages for 29949 Kepler
+    stars with measured rotation periods. We are able to estimate ages for
+    clusters and asteroseismic stars with an rms of 1.22Gyr and 0.26Gyr
+    respectively. With our Astraea machine-learning algorithm, which
+    predicts rotation periods, we suggest a new selection criterion (a
+    weight of 0.15) to increase the size of the McQuillan et al. catalog
+    of Kepler rotation periods by up to 25%. Using predicted rotation
+    periods, we estimated gyro-kinematic ages for stars without measured
+    rotation periods and found promising results by comparing 12 detailed
+    age-element abundance trends with literature values.
+
+Description:
+    To construct the gyro-kinematic age catalog, we started with the
+    rotation period catalog from McQuillan+, 2014, J/ApJS/211/24 with
+    34030 measured rotation periods and added an extra 4637 stars from
+    Garcia+, 2014, J/A+A/572/A34 and Santos+, 2019, J/ApJS/244/21, which,
+    combined, contain 38667 stars. We then accessed their Gaia data from
+    the publicly available Kepler-Gaia DR2 cross-matched catalog produced
+    with a 1" search radius.
+    We cross-matched our rotation sample with the spectroscopic catalog
+    produced by the Large Sky Area Multi-Object Fibre Spectroscopic
+    Telescope (LAMOST) to obtain radial velocity (RVel) measurements.
+    In addition to the primary photometric, spectroscopic, and kinematic
+    data from Gaia, LAMOST, and Kepler, we also used multiple age catalogs
+    in order to test our results. We used the isochrone age catalog from
+    Berger+, 2020, J/AJ/160/108, the Kepler LEGACY asteroseismic age
+    catalog from Silva Aguirre+, 2017, J/ApJ/835/173, the open cluster
+    catalog from Curtis+, 2020ApJ...904..140C, and white dwarf cooling
+    ages for two white dwarf M-dwarf binaries from R.Kiman+, (2021, in
+    preparation).
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl    Records    Explanations
+--------------------------------------------------------------------------------
+ReadMe          80          .    This file
+table1.dat     134      29949    Catalog of the 29949 gyro-kinematic ages with
+                                  measured rotation periods
+--------------------------------------------------------------------------------
+
+See also:
+ V/130 : Geneva-Copenhagen Survey of Solar neighbourhood III (Holmberg+, 2009)
+ V/133 : Kepler Input Catalog (Kepler Mission Team, 2009)
+ I/337 : Gaia DR1 (Gaia Collaboration, 2016)
+ I/345 : Gaia DR2 (Gaia Collaboration, 2018)
+ J/ApJ/695/679 : Stellar rotation in M35 (Meibom+, 2009)
+ J/ApJ/733/L9  : Stellar rotation for 71 NGC 6811 members (Meibom+, 2011)
+ J/ApJ/743/48  : Stars with rotation periods & X-ray luminosities (Wright+,2011)
+ J/ApJ/776/67  : Rotational tracks (van Saders+, 2013)
+ J/A+A/572/A34 : Pulsating solar-like stars in Kepler (Garcia+, 2014)
+ J/ApJS/211/24 : Rotation periods of Kepler MS stars (McQuillan+, 2014)
+ J/AJ/152/113  : Pleiades members with K2 lightcurves.I. Periods (Rebull+, 2016)
+ J/ApJ/822/47  : K2 rotation periods for 65 Hyades members (Douglas+, 2016)
+ J/ApJ/835/173 : Kepler asteroseismic LEGACY sample. II. (Silva Aguirre+, 2017)
+ J/ApJ/839/92  : Praesepe members with K2 light curve data (Rebull+, 2017)
+ J/ApJ/842/83  : Praesepe members rotational periods from K2 LCs (Douglas+,2017)
+ J/AJ/156/18   : APOGEE DR14:Binary comp. of evolved stars (Price-Whelan+,2018)
+ J/ApJ/862/33  : Improved & expanded membership cat. for NGC752 (Agueros+, 2018)
+ J/ApJ/865/68  : Abundances for 79 Sun-like stars within 100pc (Bedell+, 2018)
+ J/MNRAS/474/2580 : Temporal evolution of neutron-capture elements (Spina+,2018)
+ J/A+A/624/A19 : GALAH survey, chemodynamical analyse with TGAS (Buder+, 2019)
+ J/ApJ/871/174 : Kepler rapid rotators and Ks-band excesses (Simonian+, 2019)
+ J/ApJ/878/21  : Vertical motions of APOGEE & Gaia red clump stars (Ting+, 2019)
+ J/ApJ/879/49  : Rotation periods for 171 Gaia memb.of NGC 6811 (Curtis+, 2019)
+ J/ApJ/879/100 : K2 Prot for Hyades & Praesepe members (Douglas+, 2019)
+ J/ApJS/244/21 : Surface rotation & activity of Kepler stars. I. (Santos+, 2019)
+ J/ApJS/245/34 : Abundances for 6 million stars from LAMOST DR5 (Xiang+, 2019)
+ J/MNRAS/482/4570 : Gaia DR2 white dwarf candidates (Gentile Fusillo+, 2019)
+ J/AJ/160/108  : Gaia-Kepler stellar prop. catalog.II. Planets (Berger+, 2020)
+ J/MNRAS/494/2429 : Kinematics of nearby young stars (Binks+, 2020)
+ http://gaia-kepler.fun/ : Cross-matched Gaia data stars observed by Kepler/K2
+ http://exoplanetarchive.ipac.caltech.edu/ : NASA exoplanet archive
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  8 I8     ---     KIC     Target identification number, Kepler Input
+                                 Catalog (1)
+  10- 15 F6.3   d       Prot    [0.2/68] Rotation period (2)
+  17- 21 F5.3   d     e_Prot    [0/10] Error on rotation period (2)
+  23- 41 I19    ---     Gaia    Gaia DR2 Source ID (3)
+  43- 49 F7.3   deg     RAdeg   [279/302] Right Ascension, Gaia DR2 (ICRS) (3)
+  51- 55 F5.3   deg   e_RAdeg   [0.009/0.62] Error on RAdeg from Gaia DR2 (3)
+  57- 62 F6.3   deg     DEdeg   [36.5/52.5] Declination, Gaia DR2 (ICRS) (3)
+  64- 68 F5.3   deg   e_DEdeg   [0.01/0.7] Arror on DEdeg from Gaia DR2 (3)
+  70- 77 F8.3   km/s    Wvel    [-259/415] Vertical velocity (4)
+  79- 84 F6.3   km/s  e_Wvel    [0.03/42]? Error on Wvel (4)
+  86- 92 F7.3   km/s    sigma   [0.10/137] Velocity dispersion (5)
+  94-100 F7.3   Gyr     GyroAge [0.002/142] Gyro-kinematic ages (6)
+ 102-106 F5.3   Gyr   e_GyroAge [1.6/2] Error on GyroAge (6)
+ 108-112 F5.3   ---     Ro      [0.005/9.83] Rossby number (5)
+ 114-121 F8.3   K       Teff    [3351/7970] Effective temperature (5)
+ 123-128 F6.3   mag     GMAG    [-0.03/11] Absolute G-band magnitude (5)
+ 130-134 F5.3   km/s  e_sigma   [0/0.07] Error on sigma (5)
+--------------------------------------------------------------------------------
+Note (1): Kepler Input Catalog identifier from the Kepler Stellar Table
+    (doi:10.26133/NEA6) at the NASA Exoplanet Archive as obtained via the
+    http://gaia-kepler.fun/ crossmatch database created by Megan Bedell.
+Note (2): Literature rotation periods collected from
+           McQuillan+, 2014, J/ApJS/211/24, Garcia+, 2014, J/A+A/572/A34 and
+           Santos+, 2019, J/ApJS/244/21.
+Note (3): Gaia DR2 results obtained via the http://gaia-kepler.fun/ crossmatch
+    database created by Megan Bedell
+Note (4): Vertical velocity from radial velocity LAMOST DR5,
+           Cui+, 2012RAA....12.1197C; Xiang+, 2019, J/ApJS/245/34 or Gaia DR2,
+           or Angus+, (in prep).
+Note (5): Effective temperatures, absolute Gaia G-band magnitudes, Rossby
+    numbers and  vertical velocity dispersion calculated in this work.
+Note (6): Gyro-kinematic age from the age velocity dispersion relation with
+    errors combining error from AVR fits and uncertainties on the stellar
+    parameters.
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+================================================================================
+(End)                          Prepared by [AAS], Coralie Fix [CDS], 29-Jun-2021
